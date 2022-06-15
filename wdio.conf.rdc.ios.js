@@ -37,7 +37,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/addThreeItems.js'
+        './test/specs/addThreeItemsIos.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -67,9 +67,9 @@ exports.config = {
     //
     capabilities: [
         {
-            platformName: 'Android',
-            deviceName: 'Google_Pixel_5_real',
-            app: 'storage:filename=Android.MyDemoAppRN.apk', // The filename of the mobile app
+            platformName: 'iOS',
+            deviceName: 'iPhone_12_Pro_Max_14_real',
+            app: 'storage:filename=iOS.MyDemoAppRN.ipa', // The filename of the mobile app
             // The path to the app that has been uploaded to the Sauce Storage,
             // see https://wiki.saucelabs.com/display/DOCS/Application+Storage for more information
            
@@ -80,7 +80,7 @@ exports.config = {
             language: 'en',
             locale: 'en',
             // Add a name to the test
-            name: 'Adding 3 items to the cart',
+            name: 'IOS addig items to the cart',
             shouldTerminateApp: true,
                 },
         
